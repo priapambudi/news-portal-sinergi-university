@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Bahasa from '../components/Bahasa.jsx';
+import Navbar from '../components/Navbar.jsx';
+import Event from "../components/Event.jsx";
+import News from "../components/News.jsx";
+import Mahasiswa from "../components/Mahasiswa.jsx";
+import Staff from "../components/Staff.jsx";
+import Mitra from "../components/Mitra.jsx";
+import Footer from "../components/Footer.jsx";
+
+
+---
+
+
+<Layout title="Sinergi University">
+	<Bahasa />
+	<Navbar client:load />
+	<Event client:load />
+	<News client:load />
+	<Mahasiswa client:load/>
+	<Staff client:load/>
+	<Mitra client:load/>
+	<Footer />
+</Layout>
+
+  
+
+
+

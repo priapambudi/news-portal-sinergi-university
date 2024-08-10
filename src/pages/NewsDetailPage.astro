@@ -1,0 +1,14 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Bahasa from "../components/Bahasa";
+import Navbar from "../components/Navbar.jsx";
+import NewsDetail from "../components/NewsDetail.jsx";
+import Footer from "../components/Footer.jsx";
+---
+
+<Layout title="Detail News">
+    <Bahasa />
+    <Navbar client:load />
+    <NewsDetail client:load />
+    <Footer />
+</Layout>
